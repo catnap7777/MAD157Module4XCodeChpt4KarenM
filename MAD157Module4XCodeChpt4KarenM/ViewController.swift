@@ -63,6 +63,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // MARK: Methods
     @IBAction func changeButton(_ sender: Any) {
         
+        //labelResult.text = textDisplay.text?.uppercased()
         labelResult.text = textDisplay.text?.uppercased()
         print (labelResult.text!)
         
